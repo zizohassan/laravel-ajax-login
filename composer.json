@@ -1,7 +1,7 @@
 {
-  "name": "5dmatweb/ajaxlogin",
+  "name": "5dmatweblogin/ajaxlogin",
   "description": "Ajax login for laravel ...",
-  "keywords": ["RealTime", "Messages" , "Streamlab" , "Laravel"],
+  "keywords": ["Ajax" ,"Login" , "Laravel" ,"javascript"],
   "license": "MIT",
   "version": "1.0",
   "type": "package",

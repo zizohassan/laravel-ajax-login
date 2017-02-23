@@ -4,7 +4,7 @@ namespace AjaxLogin\AjaxLoginProvider;
 
 use Illuminate\Support\ServiceProvider;
 
-class AjaxLoginProvider extends ServiceProvider
+class AjaxLoginServiceProvider extends ServiceProvider
 {
 
     public function boot()

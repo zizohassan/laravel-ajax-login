@@ -28,6 +28,13 @@ we write on login.blade.php & app.blade.php & logincontroller.php & add new file
 php artisan vendor:publish --tag=5dmatweb --force
 ```
 
+#Start Now
+now start your project and enjoy login with ajax 
+
+```
+php artisan serve
+```
+
 #How to use
 we set for you every thing on login file and app layout file 
 this is the basic 

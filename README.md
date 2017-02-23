@@ -61,7 +61,7 @@ mode => the error way to show we have to mode on sample alert Or toast alert <br
 #Methods
 
 #Done login
-we have method call doneLogin this method process after user is login you can 
+we have method called doneLogin this method process after user is login you can 
 add your custom logic here if you want the default action to rediret to home or if you set 
 successUrl property the lib will redirect user to this url
 ```javascript
@@ -70,7 +70,7 @@ AL.doneLogin = function(){
         };
 ```
 #Error login
-we have method call doneLogin this method process if user have error in login like wrong login info
+we have method called errorLogin this method process if user have error in login like wrong login info
 add your custom logic here if you want , the default action to show user error in depend on user mode
 select you can run your custom error show if you want the function will return with error that laravel pass
 ```javascript

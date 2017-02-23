@@ -44,12 +44,12 @@ this is the basic
 
 ```
 
-email => set the email id  field
-password => set the password id  field
-btn => set the submit button id  field
-url => the login post url it set by default to /login
-successUrl => the url we will redirect user after success login By default we rediret to home page
-mode => the error way to show we have to mode on sample alert Or toast alert
+email => set the email id  field <br>
+password => set the password id  field <br>
+btn => set the submit button id  field <br>
+url => the login post url it set by default to /login <br>
+successUrl => the url we will redirect user after success login By default we rediret to home page <br>
+mode => the error way to show we have to mode on sample alert Or toast alert <br>
 
 #Methods
 

@@ -1,5 +1,5 @@
 {
-  "name": "AjaxLogin/AjaxLogin",
+  "name": "ajax-laravel-login",
   "description": "Ajax login for laravel ...",
   "keywords": ["RealTime", "Messages" , "Streamlab" , "Laravel"],
   "license": "MIT",

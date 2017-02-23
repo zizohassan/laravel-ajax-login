@@ -32,7 +32,7 @@ php artisan vendor:publish --tag=5dmatweb --force
 we set for you every thing on login file and app layout file 
 this is the basic 
 
-```
+```javascript
   AL = new Login({
             email:"email",
             password:"password",
@@ -57,7 +57,7 @@ mode => the error way to show we have to mode on sample alert Or toast alert
 we have method call doneLogin this method process after user is login you can 
 add your custom logic here if you want the default action to rediret to home or if you set 
 successUrl property the lib will redirect user to this url
-```
+```javascript
 AL.doneLogin = function(){
             alert('login');
         };
@@ -66,7 +66,7 @@ AL.doneLogin = function(){
 we have method call doneLogin this method process if user have error in login like wrong login info
 add your custom logic here if you want , the default action to show user error in depend on user mode
 select you can run your custom error show if you want the function will return with error that laravel pass
-```
+```javascript
   AL.errorLogin = function (error) {
             console.log(error)
         };

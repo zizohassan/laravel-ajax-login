@@ -22,7 +22,7 @@ var Login = (function(){
         this.init();
     }
     Login.prototype.urlDef = "/login";
-    Login.prototype.urlAfterLogin = "/";
+    Login.prototype.urlAfterLogin = "/home";
     Login.prototype.modeDef = "toast";
 
     Login.prototype.init = function(){

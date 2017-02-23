@@ -70,7 +70,7 @@
 @endsection
 
 @section('script')
-    <script src="{{ url('/') }}AjaxLogin/AjaxLogin.js"></script>
+    <script src="{{ url('/') }}/AjaxLogin/AjaxLogin.js"></script>
     <script>
         AL = new Login({
             email:"email",

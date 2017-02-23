@@ -4,7 +4,7 @@ namespace AjaxLogin\AjaxLoginProvider;
 
 use Illuminate\Support\ServiceProvider;
 
-class AjaxLoginServiceProvider extends ServiceProvider
+class AjaxLoginProvider extends ServiceProvider
 {
 
     public function boot()
@@ -13,8 +13,8 @@ class AjaxLoginServiceProvider extends ServiceProvider
         $this->publishes([
             $path.'/assets' => base_path('public/AjaxLogin'),
             $path.'/auth' => base_path('app/Http/Controllers/Auth'),
-            $path.'/view' => base_path('app/resources/views/auth')
-        ]);
+            $path.'/view' => base_path('resources/views')
+        ] , '5dmatweb');
     }
     public function register()
     {

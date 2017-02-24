@@ -2,7 +2,7 @@
 laravel ajax login row javascript
 
 #video 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YFLdBeuwlUQ" frameborder="0" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=YFLdBeuwlUQ&feature=youtu.be">Video here</a>
 
 #installtion
 add this command to terminal in linux or mac & cmd on windows

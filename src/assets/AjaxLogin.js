@@ -89,7 +89,7 @@ var Login = (function(){
         return property == "" ? false : true;
     };
     Login.prototype.getUrl  = function(){
-        return  this.checkProperty(this.url) ? this.url : this.urlDef;
+        return  this.checkProperty(this.url) === true ? this.url : this.urlDef;
     };
     Login.prototype.getMode  = function(){
         return  this.checkProperty(this.mode) ? this.mode : this.modeDef;

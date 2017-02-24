@@ -52,7 +52,8 @@ var Login = (function(){
         });
     };
     Login.prototype.doneLogin = function(){
-        return window.location = this.urlAfterLogin;
+        var url = this.checkProperty(this.successUrl) === false ? this.urlAfterLogin : this.successUrl;
+        return window.location = url;
     };
     Login.prototype.errorLogin = function(response){
         var password = this.checkProperty(response.password) ? response.password : "";
@@ -89,7 +90,7 @@ var Login = (function(){
         return property == "" ? false : true;
     };
     Login.prototype.getUrl  = function(){
-        return  this.checkProperty(this.url) === true ? this.url : this.urlDef;
+        return  this.checkProperty(this.url) ? this.url : this.urlDef;
     };
     Login.prototype.getMode  = function(){
         return  this.checkProperty(this.mode) ? this.mode : this.modeDef;

@@ -44,8 +44,8 @@ this is the basic
             email:"email",
             password:"password",
             btn:"btn",
-            url:"/login",
-            successUrl:"/",
+            url:"/login", ///where we post the form data
+            successUrl:"/",/// url to redirect after login /home is the default
             mode:"toast" ///alert or toast
 });
 
